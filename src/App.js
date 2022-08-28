@@ -13,12 +13,12 @@ function App() {
       <Sidebar/>
       {/*Home*/}
       <Home/>
-      Home
+      
 
       
       {/*Widgets*/}
       <Widgets/>
-      Widgets
+      
 
       <GlobalStyles/>
     </div>
