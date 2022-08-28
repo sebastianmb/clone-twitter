@@ -1,6 +1,13 @@
 import {createGlobalStyle} from 'styled-components'
 
 export default createGlobalStyle`
+
+  :root{
+  --twitterColor: #1da1f2;
+  --twitterHover: #1a91da;
+  --Hover: rgba(24, 161, 242, 0.1)
+  }
+
 *{
     margin: 0;
 }
@@ -17,4 +24,14 @@ body {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
+
+  .App{
+    display: flex;
+    heigth: 100vh;
+    max-width: 1250px;
+    margin: 0 auto;
+    border: 1px solid red;
+  }
+
+
   `

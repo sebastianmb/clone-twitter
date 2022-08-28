@@ -7,16 +7,18 @@ import Widgets from "./componentes/Widgets/Index";
 function App() {
   return (
     <div className="App">
-      <h1>Twitter clone con React y Firebase</h1>
+      
 
       {/*Sidebar*/}
       <Sidebar/>
       {/*Home*/}
       <Home/>
+      Home
 
       
       {/*Widgets*/}
       <Widgets/>
+      Widgets
 
       <GlobalStyles/>
     </div>
