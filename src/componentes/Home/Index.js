@@ -1,4 +1,5 @@
 import React from "react";
+import PostsP from "./Posts";
 import {Containner, Header} from "./styles";
 import TweetBox from "./TweetBox";
 
@@ -12,6 +13,7 @@ export default function Home(){
             {/*TweetBox*/}
             <TweetBox/>
             {/*Post*/}
+            <PostsP/>
         </Containner>
     )
 }

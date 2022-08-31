@@ -27,7 +27,7 @@ export const Header = styled.header`
 /* THE BOX */
 
 export const Tweetbox= styled.div`
-border: 1px solid red;
+
 padding: 5px 15px;
 
 `
@@ -107,4 +107,43 @@ export const Form= styled.form`
 display: flex;
 flex-direction: column;
 
+`
+/*-------POST---*/
+
+export const Post=styled.div`
+padding: 10px 15px;
+border-top: 1px solid #ddd;
+margin-top: 5px;
+display: flex;
+align-items: flex-start;
+.post_avatar{
+    margin-top: 5px;
+
+}
+
+`
+export const PostBody=styled.div`
+padding-left: 10px;
+width: 100%;
+overflow:hidden;
+>div span{
+    font-weight: 600;
+    font-size: 15px;
+    color: #5b508;
+}
+.post_icon{
+    font-size: 14px !important;
+    color: var(--twitterColor) !important;
+
+}
+h3{
+    padding:0;
+    margin:0;
+}
+`
+export const PostDescription=styled.div`
+`
+export const PostFooter= styled.div`
+`
+export const  Images= styled.img`
 `
