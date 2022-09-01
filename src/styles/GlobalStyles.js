@@ -30,7 +30,7 @@ body {
     heigth: 100vh;
     max-width: 1250px;
     margin: 0 auto;
-    border: 1px solid red;
+    
   }
 
 
