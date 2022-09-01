@@ -14,6 +14,10 @@ export default function Home(){
             <TweetBox/>
             {/*Post*/}
             <PostsP/>
+            <PostsP/>
+            <PostsP/>
+            <PostsP/>
+            <PostsP/>
         </Containner>
     )
 }
