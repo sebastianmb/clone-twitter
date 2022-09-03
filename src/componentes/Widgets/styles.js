@@ -5,6 +5,7 @@ export const Widget= styled.div`
 flex: 0.3;
 overflow-y: scroll;
 box.sizing: border-box;
+padding: 0 30px 10px 20px;
 &::-webkit-scrollbar{
     display: none;
     

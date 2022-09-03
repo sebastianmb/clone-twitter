@@ -1,10 +1,10 @@
 import React from 'react'
 import {SidebarIcon} from './styles'
 
-const IconOption = ({text, Icon, active}) => {
+const IconOption = ({text, Icon, active, primary}) => {
   return (
     
-      <SidebarIcon active={active}>
+      <SidebarIcon active={active} primary={primary}>
         {Icon}
         <h2>{text}</h2>
 

@@ -20,10 +20,10 @@ const Sidebar = () => {
         <IconOption text='Explorar' Icon ={<SearchIcon />} />
         <IconOption text='Notificaciones' Icon ={<NotificationsNoneIcon />}/>
         <IconOption text='Mensajes' Icon ={<MailOutlineIcon />}/>
-        <IconOption text='Guardados' Icon ={<BookmarkBorderIcon />}/>
-        <IconOption text='Listas' Icon ={<SubjectOutlinedIcon />}/>
-        <IconOption text='Perfil' Icon ={<PersonOutlinedIcon />}/>
-        <IconOption text='Mas opciones' Icon ={<MoreHorizOutlinedIcon />}/>
+        <IconOption primary text='Guardados' Icon ={<BookmarkBorderIcon />}/>
+        <IconOption primary text='Listas' Icon ={<SubjectOutlinedIcon />}/>
+        <IconOption primary text='Perfil' Icon ={<PersonOutlinedIcon />}/>
+        <IconOption primary text='Mas opciones' Icon ={<MoreHorizOutlinedIcon />}/>
 
 
         <Button variant="outlined" fullWidth >Tweet</Button>
