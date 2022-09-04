@@ -14,7 +14,18 @@ export const Containner = styled.div`
     }
     --ms-overflow-style:none;
     scrollbar-width:none;
-
+    @media only screen and (max-width: 1280px){
+        flex: 0.55;
+    
+    }
+    @media only screen and (max-width: 1004px){
+        flex: 0.95;
+        
+    }
+    @media only screen and (max-width: 500px){
+        flex: 1.0;
+        
+    }
 
 `
 
