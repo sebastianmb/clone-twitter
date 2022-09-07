@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, {css} from "styled-components";
 
 
 export const Containner = styled.div`
@@ -99,9 +99,7 @@ export const DivBox=styled.div`
     height:20px;
     border-radius: 5px;
     cursor: pointer;
-    &:nth-child(3){
-        border: 1px solid red;
-    }
+    
  }
 `
 
@@ -117,6 +115,20 @@ export const Form= styled.form`
 
 display: flex;
 flex-direction: column;
+
+`
+
+export const File =styled.input`
+max-width:35px;
+position: absolute;
+z-index:10;
+padding-top: 10 px;
+opacity:0;
+
+${props=> props.primary && css`
+ margin-left:55px;
+
+ `}
 
 `
 /*-------POST---*/
